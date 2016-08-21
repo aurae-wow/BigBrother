@@ -1,0 +1,20 @@
+## Interface: 40300
+## X-Curse-Packaged-Version: r1111
+## X-Curse-Project-Name: Ace2
+## X-Curse-Project-ID: ace2
+## X-Curse-Repository-ID: wow/ace2/luckyjack_sl
+## X-Curse-Packaged-Version: r1117
+## X-Curse-Project-Name: Ace2
+## X-Curse-Project-ID: ace2
+## X-Curse-Repository-ID: wow/ace2/luckyjack_sl
+
+## Title: Lib: AceOO-2.0
+## Notes: AddOn development framework
+## Author: Ace Development Team
+## LoadOnDemand: 1
+## X-Website: http://www.wowace.com
+## X-Category: Library
+## X-License: LGPL v2.1 + MIT for AceOO-2.0
+## Dependencies: AceLibrary
+ 
+AceOO-2.0.lua

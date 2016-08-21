@@ -1,0 +1,34 @@
+## Interface: 70000
+## Title: Big Brother
+## Notes: Checks Raid Buffs/Flasks/Consumables. Tunable alerts for misdirects, taunts, cc breakage, rez, dispel and interrupt
+## Notes-deDE: Prüft Raidbuffs/Fläschchen & warnt wer Verwandlungen/Untote fesseln unterbricht.
+## Notes-frFR: Vérifie la présence de flacons/buffs de raid & Préviens quand quelqu'un casse une métamorphose/une entrave.
+## Notes-ruRU: Проверяет участников рейда на наличие настоев/эликсиров, а также оповещает о сбитии контроля и перенаправлении угрозы.
+## Notes-zhCN: 插件团队增益及合剂效果，并对打破变形/亡灵束缚进行报警
+## Notes-zhTW: 檢查團隊 增益/精煉，並警報誰破壞了 變形術/束縛不死生物
+## Notes-koKR: 공격대 버프 & 영약 & 비약 & 음식 검사/변이 & 속박 등 공격대원의 재사용 대기 시간을 바 형태로 표시
+## Author: Cryect, oscarucb, Treibh, Silberbüchse, Quaiche
+## Version: 4.2.1
+## X-Build: 405
+## X-ReleaseDate: 2015-11-22T17:45:02Z
+## X-Revision: $Revision: 402 $
+## X-Category: Raid
+## X-Embeds: Ace2, RosterLib, FuBarPlugin-2.0
+## OptionalDeps: Ace2, RosterLib, FuBarPlugin-2.0, FuBar2Broker
+## SavedVariables: BigBrotherDB
+## LoadManagers: AddonLoader
+## X-LoadOn-Group: true
+## X-LoadOn-Slash: /bb, /bigbrother
+## X-LoadOn-LDB-Launcher: Interface\AddOns\BigBrother\icon
+## X-Curse-Packaged-Version: 4.2.1
+## X-Curse-Project-Name: BigBrother
+## X-Curse-Project-ID: big-brother
+## X-Curse-Repository-ID: wow/big-brother/mainline
+
+embeds.xml
+
+locale.lua
+
+SpellData.lua
+BigBrother.lua
+BuffWindow.lua
