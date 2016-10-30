@@ -14,9 +14,35 @@ vars.SpellData.foods = {
 }
 
 vars.SpellData.AugmentRunes = {
-	175439, -- Stout Augment Rune
-	175457, -- Focus Augment Rune
-	175456, -- Hyper Augment Rune
+	175439, -- Stout Augment Rune (Warlords)
+	175457, -- Focus Augment Rune (Warlords)
+	175456, -- Hyper Augment Rune (Warlords)
+	224001, -- Defiled Augment Rune (Legion)
+}
+
+vars.SpellData.VantusRunes = {
+	-- Emerald Nightmare
+	192761, -- Nythndra
+	192765, -- Elerethe Renferal
+	191464, -- Ursoc
+	192762, -- Il'gynoth
+	192763, -- Dragons of Nightmare
+	192766, -- Cenarius
+	192764, -- Xavius
+	-- Trial of Valor
+	229174, -- Odyn
+	229175, -- Guarm
+	229176, -- Helya
+	-- Nighthold
+	192767, -- Skorpyron
+	192768, -- Chronomatic Anomaly
+	192769, -- Trilliax
+	192770, -- Spellblade Aluriel
+	192771, -- Tichondrius
+	192772, -- High Botanist Tel'arn
+	192774, -- Star Augur Etraeus
+	192775, -- Grand Magistrix Elisande
+	192776, -- Gul'dan
 }
 
 vars.SpellData.flasks = {
@@ -80,11 +106,10 @@ vars.SpellData.flasks = {
 	156073, -- Draenic Agility Flask
 	176151, -- Whispers of Insanity
 	-- Flask Legion
-	127847,	-- Flask of the Whispered Pact
-	127848,	-- Flask of the Seventh Demon
-	127849,	-- Flask of the Countless Armies
-	127850,	-- Flask of Ten Thousand Scars
-	127858,	-- Sprit Flask
+	188031,	-- Flask of the Whispered Pact
+	188033,	-- Flask of the Seventh Demon
+	188034,	-- Flask of the Countless Armies
+	188035,	-- Flask of Ten Thousand Scars
 }
 
 vars.SpellData.elixirGuardian = {
@@ -256,4 +281,3 @@ vars.SpellData.aoetauntSpells = {
 	36213, -- Angered Earth (Shaman Earth Elemental), unfortunately no visible debuff
 	-- 59671, -- Challenging Howl (Warlock)  3.x
 }
-

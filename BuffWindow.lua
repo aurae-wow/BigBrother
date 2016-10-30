@@ -77,6 +77,12 @@ vars.AugmentRunes = {}
 for _,v in ipairs(vars.SpellData.AugmentRunes) do
 	table.insert( vars.AugmentRunes, { spellData(v) } )
 end
+
+vars.VantusRunes = {}
+for _,v in ipairs(vars.SpellData.VantusRunes) do
+	table.insert( vars.VantusRunes, { spellData(v) } )
+end
+
 vars.Foodbuffs={}
 for i,v in ipairs(vars.SpellData.foods) do
 	table.insert(vars.Foodbuffs,  { spellData(v) })
@@ -313,20 +319,22 @@ local BigBrother_BuffTable={
 		name=L["Consumables"],
 		sortFunc=Sort_RaidBuffs,
 		buffs={
-			{},{},{},{},
+			{},{},{},
 			vars.Elixirs_Battle,
 			vars.Elixirs_Guardian,
 			vars.Flasks,
       			vars.Foodbuffs,
 			vars.AugmentRunes,
+			vars.VantusRunes,
 		},
 		header={
-			{},{},{},{},
+			{},{},{},
 			{headerColor(L["Battle Elixirs"]),   select(2,spellData(60344))},
 			{headerColor(L["Guardian Elixirs"]), select(2,spellData(54494))},
 			{headerColor(L["Flasks"]),           select(2,spellData(67019))},
 			{headerColor(spellData(62349)),      select(2,spellData(62349))},
 			{headerColor(L["Augment Runes"]),    select(2,spellData(175457))},
+			{headerColor(L["Vantus Rune"]),      select(2,spellData(191464))},
 		}
 	},
 }

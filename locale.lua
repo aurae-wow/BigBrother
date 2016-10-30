@@ -121,6 +121,8 @@ Ld["Taunt"] = "Taunt"
 Ld["\"Well Fed\""] = "\"Well Fed\""
 Ld["Well Fed"] = "Well Fed"
 Ld["Whisper"] = "Whisper"
+-- Vantus Rune (Legion) 
+La["Vantus Rune"] = "Vantus Rune"
 
 
 if locale == "frFR" then do end
