@@ -737,16 +737,20 @@ function addon:OnEnable()
   end
 
   DEFAULT_CHAT_FRAME:HookScript("OnHyperlinkEnter", function(self, linkData, olink)
+		 if linkData ~= nil then    --TEMP FIX to hide LUA Error.
         if string.match(linkData,"^player::BigBrother:") then
           GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
           GameTooltip:SetText(L["Click to add this event to chat"])
           GameTooltip:Show()
         end
+		end   --TEMP FIX to hide LUA Error.
   end)
   DEFAULT_CHAT_FRAME:HookScript("OnHyperlinkLeave", function(self, linkData, link)
+		 if linkData ~= nil then    --TEMP FIX to hide LUA Error.
         if string.match(linkData,"^player::BigBrother:") then
           GameTooltip:Hide()
         end
+		end   --TEMP FIX to hide LUA Error.
   end)
 end
 
@@ -1460,5 +1464,3 @@ function addon:COMBAT_LOG_EVENT_UNFILTERED(timestamp, subevent, hideCaster, ...)
 	sendspam(L["%s stole %s from %s"]:format(SRC, SPELL(extraspellID or spellID), DST))
   end
 end
-
-
