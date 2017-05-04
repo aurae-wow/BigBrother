@@ -40,6 +40,7 @@ vars.SpellData.VantusRunes = {
 	192770, -- Spellblade Aluriel
 	192771, -- Tichondrius
 	192772, -- High Botanist Tel'arn
+	192773, -- Krosus
 	192774, -- Star Augur Etraeus
 	192775, -- Grand Magistrix Elisande
 	192776, -- Gul'dan

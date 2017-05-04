@@ -1,4 +1,4 @@
-## Interface: 70100
+## Interface: 70200
 ## Title: Big Brother
 ## Notes: Checks Raid Buffs/Flasks/Consumables. Tunable alerts for misdirects, taunts, cc breakage, rez, dispel and interrupt
 ## Notes-deDE: Prüft Raidbuffs/Fläschchen & warnt wer Verwandlungen/Untote fesseln unterbricht.
